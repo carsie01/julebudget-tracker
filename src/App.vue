@@ -3,7 +3,7 @@
     <nav>
       <router-link to="/">GiftTracker</router-link>
     </nav>
-    <router-view /> <!-- Her vises ruteindholdet -->
+    <router-view /> 
   </div>
 </template>
 

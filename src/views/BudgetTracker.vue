@@ -138,7 +138,7 @@ export default {
       isEditingBudget: false,
       newBudget: 0,
 
-      // Gift Information
+      // Gave Information
       giftList: [
         {
           name: 'Mor',
@@ -161,7 +161,7 @@ export default {
       // Popup Control
       showGiftPopup: false,
 
-      // New Gift Form Data
+      // Ny Gave Form Data
       newGiftPerson: '',
       newGiftBudget: 0,
       newGiftName: '',

@@ -9,15 +9,13 @@
     
   }
   body {  display: block;
-    margin: 0; /* Fjerner standardmargin på body */
-  /* Sørger for, at body fylder hele viewportens højde */
-    width: 100vw; /* Sørger for, at body fylder hele viewportens bredde */
-    
+    margin: 0; 
+    width: 100vw; 
     background-image: url('baggrund.png');
-    background-size: cover; /* Tilpasser billedet, så det dækker hele skærmen */
-    background-position: center; /* Centrerer billedet på skærmen */
-    background-repeat: no-repeat; /* Forhindrer gentagelse af baggrundsbilledet */
-    background-attachment: fixed; /* Holder baggrundsbilledet fast ved scroll */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     background-color: #C2DDF2;
     font-family: "Lemon", serif;
     display: flex;
@@ -82,10 +80,10 @@ object-fit: cover;
     line-height: 1.1;
 }
 .add-gift {
-    position: fixed; /* Fast position på skærmen */
-    bottom: 300px;    /* Afstand fra bunden */
-    left: 80px;      /* Afstand fra venstre */
-    z-index: 1000;   /* Sørger for, at knappen ligger øverst */
+    position: fixed; 
+    bottom: 300px;    
+    left: 80px;      
+    z-index: 1000;   
   }
   
   .add-gift button {
@@ -102,11 +100,11 @@ object-fit: cover;
   .add-gift button:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
-    background-color: #5a4535; /* Mørkere nuance ved hover */
+    background-color: #5a4535; 
   }
 
   .popup {
-    position: fixed; /* Sørger for, at popup'en er uafhængig af resten */
+    position: fixed; 
     top: 50%;
     gap: 15px;
     left: 50%;
@@ -114,7 +112,7 @@ object-fit: cover;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
-    z-index: 1000; /* Lægger popup'en foran */
+    z-index: 1000; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 300px;
     border: #89A68F 20px solid;
@@ -129,16 +127,16 @@ object-fit: cover;
   }
   
   .popup ~ * {
-    filter: blur(2px); /* Eksempel for at fremhæve popup'en */
+    filter: blur(2px); 
   }
   
   body.popup-open {
-    overflow: hidden; /* Stop scrolling af baggrunden */
+    overflow: hidden; 
   }
   .popup-content label,
 .popup-content input,
 .popup-content button {
-  margin-bottom: 20px; /* Alternativ metode for afstand */
+  margin-bottom: 20px; 
 }
 .popup-content input,
 .popup-content button{

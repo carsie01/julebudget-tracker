@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 // Importer dine komponenter
 import Home from '../views/Home.vue';
-import BudgetPage from '../BudgetPage.vue';
+
 
 // Definer ruterne
 const routes = [
